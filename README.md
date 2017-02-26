@@ -1,8 +1,8 @@
 # douban_book
-获取douban（老）中，某个分类下的书目信息，结果如下：
-![image](https://github.com/vermouth1994/douban_book/blob/master/images/redis.png)
+获取douban（老）中，某个分类下的书目信息，结果如下： 
 
-![image](https://github.com/vermouth1994/douban_book/blob/master/images/content.png)
+  ![image](https://github.com/vermouth1994/douban_book/blob/master/images/redis.png)
+  ![image](https://github.com/vermouth1994/douban_book/blob/master/images/content.png)
 
   次数超过限制，则只返回图书id，再通过豆瓣api2.0中图书接口获取,拼接url为：https://api.douban.com/v2/book/3421275
 
